@@ -16,5 +16,8 @@ dependencies {
 
     dependencies {
         testCompile 'junit:junit:4.12'
+        // https=//mvnrepository.com/artifact/org.mockito/mockito-all
+        testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+
     }
 }
